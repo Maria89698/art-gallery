@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My art gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="heading">
+            <h1 class="title"> Welcome to my art gallery</h1>
+            <p>Here you can find all my digital drawings.</p>
+        </div>
+
+        <h2 class="subtitle">Gallery</h2>
+
+        <div class="sort-container">
+            <label for="sort"></label>
+            <select id="sort">
+                <option value="name">Name</option>
+                <option value="date">Date</option>
+            </select>
+        </div>
+    </header>
+    
+    <div class="gallery" id="gallery">
+        
+        <div class="item" data-name ="Mushrooms" data-date="2025-06-17">
+            <img src="./images/mushroom.jpg" alt="mushrooms">
+            <p class="info">
+                Created on: 17.06.2025
+            </p>
+        </div>
+        <div class="item" data-name ="Watercolor fox" data-date="2025-06-27">
+            <img src="./images/fox_watercolor.jpg" alt="fox_watercolor">
+            <p class="info">
+                Created on: 27.06.2025
+            </p>
+        </div>
+        <div class="item" data-name ="Foxes" data-date="2025-06-24">
+            <img src="./images/foxes.jpg" alt="foxes">
+            <p class="info">
+                Created on: 24.06.2025
+            </p>
+        </div>
+        <div class="item" data-name ="Stones" data-date="2025-06-18">
+            <img src="./images/stones.jpg" alt="stones">
+            <p class="info">
+                Created on: 18.06.2025
+            </p>
+        </div>
+        <div class="item" data-name ="3-colored cats" data-date="2025-06-27">
+            <img src="./images/3coloredCATS.jpg" alt="3coloredCATS">
+            <p class="info">
+                Created on: 27.06.2025
+            </p>
+        </div>
+        <div class="item" data-name ="Suncat" data-date="2025-06-29">
+            <img src="./images/suncat.jpg" alt="suncat">
+            <p class="info">
+                Created on: 29.06.2025
+            </p>
+        </div>
+        
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
